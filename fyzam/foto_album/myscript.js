@@ -17,7 +17,7 @@ for (let i = 0; i < persons.length; i++){
 	$('#wrapper').append(person);
 }
 
-let button = `<button class ="button" type="button">Familize</button>`;
+let button = `<button class ="button" type="button">Famylize</button>`;
 $('body').append(button);
 
 

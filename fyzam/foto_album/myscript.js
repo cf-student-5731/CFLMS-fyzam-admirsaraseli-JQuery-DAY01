@@ -28,10 +28,10 @@ $('.button').click(familize);
 function familize(){
 	for (let i = 0; i < persons.length; i++){
 		if(!persons[i].family){
-			$(`.person_wrapper:nth-child(${i+1})`).css('background-color', 'red');
+			$(`.person_wrapper:nth-child(${i+1})`).attr('class', 'person_wrapper nonFamily');
 		}
 		else{
-			$(`.person_wrapper:nth-child(${i+1})`).css('background-color', 'green');
+			$(`.person_wrapper:nth-child(${i+1})`).attr('class', 'person_wrapper family');
 		}		 
 	}	
 }

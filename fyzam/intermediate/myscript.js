@@ -31,4 +31,5 @@ $('div').addClass('box');
 
 
 // Change the link to "www.codefactory.wien"
-$('a').attr('href', 'http://www.codefactory.wien');
+
+$("[href='http://www.codefactory.com/']").attr('href', 'http://www.codefactory.wien');

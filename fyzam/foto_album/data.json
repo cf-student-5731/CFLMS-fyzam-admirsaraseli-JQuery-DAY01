@@ -8,7 +8,7 @@ simpsons = `[
     {"name": "Mr. Burns", "relation": "Boss", "family": false, "image": "./img/burns.png"},
     {"name": "Smithers", "relation": "Victim", "family": false, "image": "./img/smithers.png"},
     {"name": "Apu", "relation": "Friend", "family": false, "image": "./img/apu.png"},
-    {"name": "The Comic book guy", "relation": "Vendor", "family": false, "image": "./img/comic_book_guy.png"},
+    {"name": "Comic book guy", "relation": "Vendor", "family": false, "image": "./img/comic_book_guy.png"},
     {"name": "Itchy", "relation": "TV Star", "family": false, "image": "./img/itchy.png"},
     {"name": "Krusty", "relation": "TV Star", "family": false, "image": "./img/krusty.png"},
     {"name": "Ralph", "relation": "Friend", "family": false, "image": "./img/ralph.png"}
